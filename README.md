@@ -30,3 +30,50 @@ Key Features:
 * Age: Age of the user.
 * Gender: Gender of the user (Male or Female).
 * User Behavior Class: Classification of user behavior based on usage patterns (1 to 5).
+
+## Key Findings and Insights
+
+## User Behavior Summary Table
+
+| Feature              | Average         | Median          | Minimum | Maximum       | Key Insight                                      |
+|----------------------|----------------|------------------|---------|---------------|--------------------------------------------------|
+| **Apps Installed**    | 50 apps        | 49 apps         | 10      | 99            | Fairly normal distribution of app count.         |
+| **App Usage Time**        | 271 min/day    | 227.5 min/day   | 30      | 598           | Skewed by heavy users, avg ≈ 4.5 hours.          |
+| **Screen On Time**        | 5.27 hrs/day   | 4.9 hrs/day     | 1       | 12            | Most users spend 5+ hours/day on screen.         |
+| **Battery Drain**         | 1525 mAh/day   | 1502.5 mAh/day  | 302     | 2993          | Consistent usage with some power users.          |
+| **Data Usage**            | 929.74 MB/day  | 823.5 MB/day    | 102     | 2560 (2.5 GB) | High variance in data consumption.               |
+| **User Age**              | 38.48 years    | 38 years        | 18      | 59            | Adult-dominant user base, evenly distributed.    |
+
+
+##  Mobile Usage Patterns by Device Model
+iOS users consistently show higher values in Screen On Time, Battery Drain and App Usage Time. This suggests iOS users tend to use their devices more intensively than Android users.
+
+## Correlation Analysis: App Usage, Screen Time & Battery Drain
+-  App Usage Time ↔ Battery Drain: Correlation of 0.96
+-  Screen-On Time ↔ Battery Drain: Correlation of 0.95
+-  These strong correlations imply that users who spend more time on apps and screens tend to drain battery faster.
+- These metrics are useful predictors for battery optimization and usage behavior.
+
+## Demographic Analysis
+- Gender-based insights: App Usage Time and Screen-On Time are similar across genders.
+- Age-based usage patterns: Males below 20 years show the highest app and screen usage.Females aged 30–39 exhibit the most intensive usage in their category.
+
+## Data Consumption Analysis
+
+- Average Daily Data Usage by User Behavior Class: Users in Class 5 (extreme usage) consume the most data, while Class 1 (light usage) consumes the least. The data usage trend follows this pattern: 1 < 2 < 3 < 4 < 5.
+- Device-Specific Usage Patterns: Samsung Galaxy S21 and Xiaomi Mi 11 users, particularly in Class 5, have the highest daily data usage.
+
+
+- These insights are critical for app developers and mobile service providers to tailor services, data plans, and optimize user experiences across demographics and platforms.
+
+
+
+
+
+
+
+
+
+
+
+
